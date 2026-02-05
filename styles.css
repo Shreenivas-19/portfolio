@@ -1,0 +1,117 @@
+        :root {
+            --primary: #3a86ff;
+            --secondary: #8338ec;
+            --dark: #212529;
+            --light: #f8f9fa;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: var(--light);
+            color: var(--dark);
+            overflow-x: hidden;
+        }
+
+        /* Navigation */
+        .nav-links a::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: var(--primary);
+            transition: width 0.3s;
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        /* Hero section */
+        .hero {
+            background: linear-gradient(135deg, rgba(58,134,255,0.1) 0%, rgba(131,56,236,0.1) 100%);
+        }
+
+        /* Skill bars */
+        .skill-bar {
+            background: #e9ecef;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .skill-progress {
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            height: 10px;
+            border-radius: 10px;
+            transition: width 1s ease-in-out;
+        }
+
+        /* Project cards */
+        .project-card {
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .project-card img {
+            transition: transform 0.5s ease;
+        }
+
+        .project-card:hover img {
+            transform: scale(1.05);
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .animate-fade-in {
+            animation: fadeIn 1s ease forwards;
+        }
+
+        .delay-100 {
+            animation-delay: 0.1s;
+        }
+
+        .delay-200 {
+            animation-delay: 0.2s;
+        }
+
+        /* Book cards animation */
+        @keyframes bookFlip {
+            0% { transform: rotateY(0); }
+            50% { transform: rotateY(10deg); }
+            100% { transform: rotateY(0); }
+        }
+        .book-card:hover {
+            animation: bookFlip 0.5s ease;
+            perspective: 1000px;
+        }
+        
+        /* Stars rating interaction */ 
+        .stars span {
+            cursor: pointer;
+            transition: color 0.2s;
+        }
+        .stars span:hover,
+        .stars span.active {
+            color: #f59e0b;
+        }
+
+        /* Contact form */
+        .contact-input:focus {
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(58, 134, 255, 0.3);
+        }
