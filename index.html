@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#e7e7e7">
+  <meta name="description"
+    content="Shreenivas Honnalli, software developer, lecturer and author. Interested in backend development, problem solving, AI systems and philosophy.">
+  <title>Shreenivas Honnalli | Developer · Lecturer · Author</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <div class="progress" id="progressBar"></div>
+  <header class="site-header" id="top">
+    <nav class="nav shell" aria-label="Main navigation">
+      <a class="brand" href="#home"><span class="brand-icon">SH</span><span>SHREENIVAS HONNALLI<span
+            class="brand-period">.</span><small>DEVELOPER · LECTURER · AUTHOR</small></span></a>
+      <button class="menu-toggle" id="mobile-menu-button" aria-label="Open navigation" aria-expanded="false"
+        aria-controls="mobile-menu"><span></span><span></span></button>
+      <div class="nav-links" id="navLinks"><a href="#about">About</a><a href="#experience">Experience</a><a
+          href="#skills">Skills</a><a href="#projects">Projects</a><a href="#insights">Insights</a><a
+          href="#books">Books</a><a href="#contact">Contact</a></div>
+    </nav>
+    <div class="mobile-menu" id="mobile-menu" hidden><a href="#about">About <span>01</span></a><a
+        href="#experience">Experience <span>02</span></a><a href="#skills">Skills <span>03</span></a><a
+        href="#projects">Projects <span>04</span></a><a href="#insights">Insights <span>05</span></a><a
+        href="#books">Books <span>06</span></a><a href="#contact">Contact <span>07</span></a></div>
+  </header>
+  <main>
+    <section class="hero shell section" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR GOOD IDEAS <span
+            class="eyebrow-line"></span> INDIA / IN</div>
+        <p class="overline">A LITTLE LOGIC. A LOT OF CURIOSITY.</p>
+        <h1>Build with<br><span>clarity.</span></h1>
+        <p class="hero-description">I’m <strong>Shreenivas Honnalli</strong>, an aspiring software developer and author
+          focused on backend development, problem solving, and AI systems.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#projects">Explore my work <span>↘</span></a><a
+            class="button button-soft" href="files/Shreenivas_CV.pdf" target="_blank" rel="noreferrer">View CV
+            <span>↗</span></a></div>
+        <div class="thought-card"><span class="thought-icon">“</span>
+          <div><small>A THOUGHT TO KEEP</small>
+            <p id="thought">Reality is interpreted, not observed.</p>
+          </div><span class="thought-spark">✳</span>
+        </div>
+      </div>
+      <div class="hero-art reveal reveal-late">
+        <div class="art-label"><span>PERSONAL SPACE</span><span>EST. 2026</span></div>
+        <div class="portrait-stage">
+          <div class="orb orb-one"></div>
+          <div class="orb orb-two"></div>
+          <div class="portrait-frame"><img src="images/mine.png" alt="Portrait of Shreenivas Honnalli"
+              onerror="this.style.display='none';this.parentElement.classList.add('no-photo')">
+            <div class="portrait-fallback"><span></span><small>YOUR PORTRAIT<br>GOES HERE</small></div>
+          </div>
+          <div class="floating-note note-code"><span>{ }</span>
+            <div>BUILDING<br><strong>WITH INTENT</strong></div>
+          </div>
+          <div class="floating-note note-idea"><span>✳</span>
+            <div>QUESTION<br><strong>EVERYTHING</strong></div>
+          </div>
+        </div>
+        <div class="art-caption"><span>LOGIC / CURIOSITY / CRAFT</span><span>SCROLL TO EXPLORE ↓</span></div>
+      </div>
+      <div class="hero-bottom"><span>01 — 07</span><span>SOFTWARE · IDEAS · STORIES</span><span>SCROLL TO DISCOVER
+          ↓</span></div>
+    </section>
+    <div class="ticker">
+      <div class="ticker-track"><span>SOFTWARE ENGINEERING</span><i>✳</i><span>PROBLEM
+          SOLVING</span><i>✳</i><span>ARTIFICIAL
+          INTELLIGENCE</span><i>✳</i><span>PHILOSOPHY</span><i>✳</i><span>SOFTWARE
+          ENGINEERING</span><i>✳</i><span>PROBLEM SOLVING</span><i>✳</i><span>ARTIFICIAL
+          INTELLIGENCE</span><i>✳</i><span>PHILOSOPHY</span><i>✳</i></div>
+    </div>
+    <section class="shell section" id="about">
+      <div class="section-heading reveal">
+        <p class="section-kicker">01 / THE PERSON</p>
+        <h2>Curious by nature.<br><span>Deliberate by design.</span></h2>
+        <p>Technology is what I build with. Curiosity is what keeps me building.</p>
+      </div>
+      <div class="about-grid">
+        <article class="neu-card about-main reveal">
+          <div class="card-label"><span>ABOUT / SHREENIVAS</span><span>A—01</span></div>
+          <h3>Hi, I’m Shreenivas Honnalli.</h3>
+          <p>I completed my Master’s in Computer Applications and am working toward becoming a software and AI engineer.
+            I focus on skills that truly matter: programming logic, real-world problem solving, system design thinking,
+            and practical implementation. I keep improving through hands-on building and deep technical learning.</p>
+          <p>When I’m not coding, you’ll find me reflecting on life, exploring philosophical ideas, reading
+            thought-provoking books, or writing down my thoughts. I enjoy quiet time, meaningful conversations, and
+            creative thinking. I believe in lifelong learning, not just in technology, but in understanding the world
+            and myself a little more every day.</p>
+          <div class="signature">Keep learning. Keep questioning. <span>↗</span></div>
+        </article>
+        <aside class="about-side">
+          <div class="neu-card detail-card reveal"><span class="detail-label">CURRENT BASE</span><strong>Tumakuru,
+              Karnataka</strong><small>India · IST (UTC+5:30)</small><span class="detail-symbol">⌖</span></div>
+          <div class="neu-card detail-card detail-highlight reveal"><span class="detail-label">CURRENTLY
+              EXPLORING</span>
+            <ul>
+              <li>System Design Fundamentals</li>
+              <li>AI & Machine Learning Concepts</li>
+              <li>Scalable Backend Development</li>
+            </ul><span class="detail-symbol">↗</span>
+          </div>
+          <div class="quote-card reveal"><span>“</span>
+            <p>Understanding is deeper than knowledge.</p><small>A PERSONAL PRINCIPLE</small>
+          </div>
+        </aside>
+      </div>
+      <div class="facts-strip reveal">
+        <div><small>01 / EDUCATION</small><strong>Master’s in Computer Applications</strong></div>
+        <div><small>02 / INTERESTS</small><strong>Backend · AI · Systems</strong></div>
+        <div><small>03 / OUTSIDE CODE</small><strong>Writing · Philosophy · Books</strong></div>
+      </div>
+    </section>
+    <section class="section section-tint" id="experience">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <p class="section-kicker">02 / WHAT I DO</p>
+          <h2>Experience that<br><span>starts with explaining.</span></h2>
+        </div>
+        <article class="neu-card experience-card reveal">
+          <div class="experience-symbol">↗</div>
+          <div class="experience-content">
+            <div class="card-label"><span>TEACHING / EDUCATION</span><span class="status-label"><i></i>
+                EXPERIENCE</span></div>
+            <h3>Lecturer</h3>
+            <p class="lead">Teaching Data Science, Web Technologies, and Discrete Mathematics.</p>
+            <p>Focused on simplifying complex concepts and building strong foundations. Teaching reinforces a simple
+              idea: if you understand something deeply, you should be able to explain it clearly.</p>
+          </div>
+          <div class="experience-aside"><small>CORE PRACTICE</small><strong>Make complex<br>ideas
+              understandable.</strong></div>
+        </article>
+      </div>
+    </section>
+    <section class="shell section" id="skills">
+      <div class="section-heading reveal">
+        <p class="section-kicker">03 / THE TOOLKIT</p>
+        <h2>Skills are a practice,<br><span>not a personality.</span></h2>
+        <p>A snapshot of the areas I work on and the habits I bring to a project.</p>
+      </div>
+      <div class="skills-grid">
+        <article class="neu-card skills-panel reveal">
+          <div class="card-label"><span>TECHNICAL FOUNDATIONS</span><span>04 ITEMS</span></div>
+          <div class="skill-row">
+            <div><strong>Problem Solving</strong><small>Advanced</small></div>
+            <div class="skill-track"><span style="--level:95%"></span></div>
+          </div>
+          <div class="skill-row">
+            <div><strong>Data Structures & Algorithms</strong><small>Advanced</small></div>
+            <div class="skill-track"><span style="--level:90%"></span></div>
+          </div>
+          <div class="skill-row">
+            <div><strong>Mathematics & Statistics</strong><small>Advanced</small></div>
+            <div class="skill-track"><span style="--level:99%"></span></div>
+          </div>
+          <div class="skill-row">
+            <div><strong>System Design</strong><small>Intermediate</small></div>
+            <div class="skill-track"><span style="--level:85%"></span></div>
+          </div>
+        </article>
+        <article class="neu-card skills-panel reveal reveal-late">
+          <div class="card-label"><span>HOW I WORK</span><span>04 ITEMS</span></div>
+          <div class="skill-row">
+            <div><strong>Communication</strong><small>Intermediate</small></div>
+            <div class="skill-track"><span style="--level:90%"></span></div>
+          </div>
+          <div class="skill-row">
+            <div><strong>Teamwork</strong><small>Intermediate</small></div>
+            <div class="skill-track"><span style="--level:90%"></span></div>
+          </div>
+          <div class="skill-row">
+            <div><strong>Project Management</strong><small>Advanced</small></div>
+            <div class="skill-track"><span style="--level:95%"></span></div>
+          </div>
+          <div class="skill-row">
+            <div><strong>Creativity</strong><small>Advanced</small></div>
+            <div class="skill-track"><span style="--level:99%"></span></div>
+          </div>
+        </article>
+      </div>
+      <p class="small-note reveal">Skill indicators are self-assessments, not standardized test results. The internet
+        has enough invented metrics already.</p>
+    </section>
+    <section class="section section-tint" id="projects">
+      <div class="shell">
+        <div class="section-heading heading-row reveal">
+          <div>
+            <p class="section-kicker">04 / SELECTED WORK</p>
+            <h2>Built to solve.<br><span>Made to be useful.</span></h2>
+          </div>
+          <p>Three projects, three different problems. The goal is always to make the useful thing work well.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="neu-card project-card reveal">
+            <div class="project-visual weather-visual"><img src="images/weatherproject.png"
+                alt="Weather application screenshot" onerror="this.style.display='none'">
+              <div class="image-placeholder"><span>☼</span><b>WEATHER ATLAS</b><small>ADD SCREENSHOT ·
+                  images/weatherproject.png</small></div><span class="visual-index">01 / WEB APP</span>
+              <div class="mini-weather"><span>LOCAL FORECAST</span><strong>24°</strong><small>Weather, made
+                  clearer.</small>
+                <div class="weather-line"><i></i><i></i><i></i><i></i><i></i></div>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-title-row">
+                <h3>Weather App</h3><span> P—01 </span>
+              </div>
+              <p class="project-summary">A responsive weather application designed to make current conditions and
+                forecasts easy to understand.</p>
+              <div class="project-details">
+                <div><small>PROBLEM</small>
+                  <p>Getting quick, reliable weather updates without clutter.</p>
+                </div>
+                <div><small>CHALLENGE</small>
+                  <p>Handling API delays while keeping the interface responsive.</p>
+                </div>
+                <div><small>RESULT</small>
+                  <p>A lightweight, user-friendly forecast experience.</p>
+                </div>
+              </div>
+              <div class="tech-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Weather API</span>
+              </div>
+              <div class="project-links"><a href="files/skycast-weather-app-demo.mp4" target="_blank"
+                  rel="noreferrer">Watch demo ↗</a><a href="https://github.com/Shreenivas-19/weather" target="_blank"
+                  rel="noreferrer">View repository ↗</a></div>
+            </div>
+          </article>
+          <article class="neu-card project-card reveal">
+            <div class="project-visual chat-visual"><img src="images/chat.jpeg" alt="Live chat application screenshot"
+                onerror="this.style.display='none'">
+              <div class="image-placeholder"><span>◉</span><b>LIVE CHAT</b><small>ADD SCREENSHOT ·
+                  images/chat.jpeg</small></div><span class="visual-index">02 / FULL STACK</span>
+              <div class="chat-bubbles"><i></i><i></i><i></i></div>
+            </div>
+            <div class="project-body">
+              <div class="project-title-row">
+                <h3>Live Chat Application</h3><span>P—02</span>
+              </div>
+              <p class="project-summary">A web-based messaging application built around instant communication and
+                synchronized conversations.</p>
+              <div class="project-details">
+                <div><small>PROBLEM</small>
+                  <p>People need a simple way to exchange messages in real time.</p>
+                </div>
+                <div><small>CHALLENGE</small>
+                  <p>Keeping message updates and database records in sync.</p>
+                </div>
+                <div><small>RESULT</small>
+                  <p>A direct chat experience with minimal friction.</p>
+                </div>
+              </div>
+              <div class="tech-tags"><span>HTML</span><span>PHP</span><span>MySQL</span></div>
+              <div class="project-links"><a href="files/LiveChatAppDemo.mp4" target="_blank" rel="noreferrer">Watch demo
+                  ↗</a><span class="pending">Repository link needed</span></div>
+            </div>
+          </article>
+          <article class="neu-card project-card reveal">
+            <div class="project-visual finance-visual"><img src="images/pfa.png"
+                alt="Personal Finance Analyzer screenshot" onerror="this.style.display='none'">
+              <div class="image-placeholder"><span>₹</span><b>FINANCE ANALYZER</b><small>ADD SCREENSHOT ·
+                  images/pfa.png</small></div><span class="visual-index">03 / DATA & ML</span>
+              <div class="finance-widget"><small>SPENDING OVERVIEW</small><strong>Finance insights</strong>
+                <div class="finance-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><small>Illustrative
+                  visual · not live data</small>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-title-row">
+                <h3>Personal Finance Analyzer</h3><span>P—03</span>
+              </div>
+              <p class="project-summary">A Python-based system using machine learning models to analyze spending
+                patterns and make expenses easier to understand.</p>
+              <div class="project-details">
+                <div><small>PROBLEM</small>
+                  <p>Understanding where money goes can be harder than it should be.</p>
+                </div>
+                <div><small>CHALLENGE</small>
+                  <p>Processing financial data accurately and producing useful insights.</p>
+                </div>
+                <div><small>RESULT</small>
+                  <p>Clearer insight into spending behavior.</p>
+                </div>
+              </div>
+              <div class="tech-tags"><span>Python</span><span>FastAPI</span><span>ML Models</span></div>
+              <div class="project-links"><a href="files/PFA.mp4" target="_blank" rel="noreferrer">Watch demo ↗</a><span
+                  class="pending">Repository link needed</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="shell section" id="insights">
+      <div class="section-heading reveal">
+        <p class="section-kicker">05 / NOTES FROM THE PROCESS</p>
+        <h2>Thinking is part<br><span>of the work.</span></h2>
+      </div>
+      <div class="insights-grid">
+        <article class="neu-card insight-card reveal">
+          <div class="card-label"><span>FIELD NOTE / 001</span><span>PROBLEM SOLVING</span></div>
+          <div class="insight-symbol">?</div>
+          <h3>Why Most Developers Fail at Problem Solving</h3>
+          <p>Many developers focus on syntax instead of understanding the problem deeply. Real problem solving begins
+            before writing code.</p>
+          <div class="insight-bottom"><span>DEFINE BEFORE YOU BUILD</span><span>↗</span></div>
+        </article>
+        <article class="neu-card insight-card insight-alt reveal reveal-late">
+          <div class="card-label"><span>FIELD NOTE / 002</span><span>ENGINEERING</span></div>
+          <div class="insight-symbol">≠</div>
+          <h3>Building vs Understanding</h3>
+          <p>Anyone can build using tutorials. Few can explain why something works. That difference defines real
+            engineers.</p>
+          <div class="insight-bottom"><span>KNOW THE WHY</span><span>↗</span></div>
+        </article>
+      </div>
+    </section>
+    <section class="section books-section" id="books">
+      <div class="shell">
+        <div class="section-heading heading-row reveal">
+          <div>
+            <p class="section-kicker">06 / THE WRITING DESK</p>
+            <h2>Some thoughts<br><span>need a book.</span></h2>
+          </div>
+          <p>Technology explains how things work. Writing helps me question why we think they do.</p>
+        </div>
+        <div class="books-grid">
+          <article class="neu-card book-card reveal">
+            <div class="book-cover cover-god"><img src="images/TheIllusionOfGod.jpg"
+                alt="The Illusion of God book cover" onerror="this.style.display='none'">
+              <div class="book-fallback"><small>AN INQUIRY INTO</small><strong>THE<br>ILLUSION<br>OF
+                  GOD</strong><i>SHREENIVAS HONNALLI</i></div><span>BOOK / 01</span>
+            </div>
+            <div class="book-info"><small class="book-type">PHILOSOPHY · NONFICTION</small>
+              <h3>The Illusion of God</h3>
+              <p>A philosophical exploration of belief, perception, and human understanding of God.</p>
+              <ul>
+                <li>Questions traditional beliefs</li>
+                <li>Explores psychological and cultural perspectives</li>
+                <li>Encourages independent thinking</li>
+              </ul>
+              <div class="book-actions"><a href="files/god.pdf" target="_blank" rel="noreferrer">Read preview ↗</a><a
+                  href="https://store.pothi.com/book/shreenivas-honnalli-illusion-god/" target="_blank"
+                  rel="noreferrer">Book page ↗</a></div>
+            </div>
+          </article>
+          <article class="neu-card book-card reveal reveal-late">
+            <div class="book-cover cover-world"><img src="images/shewas.png"
+                alt="In Every World, But This One book cover" onerror="this.style.display='none'">
+              <div class="book-fallback"><small>A STORY ACROSS LIVES</small><strong>IN EVERY<br>WORLD,<br>BUT THIS
+                  ONE</strong><i>SHREENIVAS HONNALLI</i></div><span>BOOK / 02</span>
+            </div>
+            <div class="book-info"><small class="book-type">PHILOSOPHICAL ROMANCE</small>
+              <h3>In Every World, But This One</h3>
+              <p>A philosophical romance about three lives, forgotten memories, unfinished love, and two people destined
+                to meet in every life except the final one.</p>
+              <div class="book-actions"><a href="files/story.pdf" target="_blank" rel="noreferrer">Read preview
+                  ↗</a><span class="pending">A work of fiction</span></div>
+            </div>
+          </article>
+          <article class="neu-card feedback-card reveal">
+            <div class="card-label"><span>READER RESPONSE</span><span>✳</span></div>
+            <h3>Read something<br>that stayed with you?</h3>
+            <p>Leave a note about either book. Thoughtful disagreement is welcome. Blind praise is less useful.</p>
+            <form id="bookFeedbackForm"><label for="title">Book title</label><select id="title" name="title" required>
+                <option value="" disabled selected>Select a book</option>
+                <option>The Illusion of God</option>
+                <option>In Every World, But This One</option>
+              </select><label for="remail">Your email</label><input id="remail" name="email" type="email"
+                placeholder="you@example.com" required><label>Your rating</label>
+              <div class="stars" role="radiogroup" aria-label="Rate this book"><button type="button" class="star"
+                  data-rating="1" aria-label="1 star">★</button><button type="button" class="star" data-rating="2"
+                  aria-label="2 stars">★</button><button type="button" class="star" data-rating="3"
+                  aria-label="3 stars">★</button><button type="button" class="star" data-rating="4"
+                  aria-label="4 stars">★</button><button type="button" class="star" data-rating="5"
+                  aria-label="5 stars">★</button></div><input type="hidden" id="rating" name="rating" value="0"><label
+                for="review">Your feedback</label><textarea id="review" name="review" rows="3"
+                placeholder="What did you think?" required></textarea><button class="button button-primary button-full"
+                type="submit">Send feedback <span>↗</span></button>
+              <p class="form-status" id="reviewStatus" role="status" aria-live="polite"></p>
+            </form>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="section section-tint" id="contact">
+      <div class="shell contact-grid">
+        <div class="contact-copy reveal">
+          <p class="section-kicker">07 / START A CONVERSATION</p>
+          <h2>Good work<br>starts with<br><span>a message.</span></h2>
+          <p class="contact-lede">Have a project, a technical question, or an idea worth exploring? Send a note. I’m
+            happy to talk about building useful things.</p>
+          <div class="contact-details"><a
+              href="mailto:shreenivasb19@gmail.com"><small>EMAIL</small><strong>shreenivasb19@gmail.com</strong><i>↗</i></a><a
+              href="tel:+916360726762"><small>PHONE</small><strong>+91 6360726762</strong><i>↗</i></a>
+            <div><small>LOCATION</small><strong>Tumakuru, Karnataka, India</strong><i>⌖</i></div>
+          </div>
+          <div class="social-links"><a href="https://instagram.com/onyx19_sb" target="_blank" rel="noreferrer">Instagram
+              ↗</a><a href="https://www.linkedin.com/in/shreenivas-39938a300/" target="_blank" rel="noreferrer">LinkedIn
+              ↗</a><a href="https://github.com/Shreenivas-19" target="_blank" rel="noreferrer">GitHub ↗</a></div>
+        </div>
+        <form class="neu-card contact-form reveal reveal-late" id="contactForm">
+          <div class="card-label"><span>MESSAGE / NEW</span><span class="status-label"><i></i> OPEN TO
+              CONVERSATION</span></div>
+          <h3>Write me a note.</h3>
+          <p>Fields marked with * are required.</p><label for="name">Your name *</label><input id="name" name="name"
+            type="text" autocomplete="name" placeholder="How should I address you?" required><label for="email">Your
+            email *</label><input id="email" name="email" type="email" autocomplete="email"
+            placeholder="you@example.com" required><label for="subject">Subject *</label><input id="subject"
+            name="subject" type="text" placeholder="What’s on your mind?" required><label for="message">Message
+            *</label><textarea id="message" name="message" rows="4" placeholder="A little context goes a long way..."
+            required></textarea><button class="button button-primary button-full" type="submit"><span>Send
+              message</span><span>↗</span></button>
+          <p class="form-status" id="contactStatus" role="status" aria-live="polite"></p><small
+            class="privacy-note">Your details are used only to respond to your message.</small>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="shell footer-top"><a class="brand" href="#home"><span class="brand-icon">sh</span><span>SHREENIVAS<span
+            class="brand-period">.</span><small>DEVELOPER · LECTURER · AUTHOR</small></span></a>
+      <p>Built with intent. Still learning.</p><a class="back-top" href="#top">BACK TO TOP ↑</a>
+    </div>
+    <div class="shell footer-bottom"><span>© <span id="year">2026</span> Shreenivas Honnalli</span><span>DESIGNED AROUND
+        CURIOSITY <b>✳</b></span><span>MADE IN INDIA</span></div>
+  </footer>
+</body>
+
+</html>
